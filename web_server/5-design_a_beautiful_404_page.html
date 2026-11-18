@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 - Ceci n'est pas une page</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(circle at 30% 20%, #1e2a5a, #0b0f24 70%);
+    color: #f2f2f7; font-family: Georgia, serif; text-align: center; }
+  .code { font-size: clamp(6rem, 22vw, 12rem); font-weight: bold;
+    background: linear-gradient(90deg, #ffb86c, #ff79c6, #8be9fd);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    animation: float 4s ease-in-out infinite; }
+  @keyframes float { 50% { transform: translateY(-14px); } }
+  h1 { font-style: italic; margin: 1rem 0; }
+  p { opacity: .8; margin-bottom: 2rem; }
+  a { color: #0b0f24; background: #8be9fd; padding: .8rem 1.6rem; border-radius: 999px;
+    text-decoration: none; font-family: Arial, sans-serif; font-weight: bold; }
+  a:hover { background: #ff79c6; }
+</style>
+</head>
+<body>
+<div>
+  <div class="code">404</div>
+  <h1>Ceci n'est pas une page</h1>
+  <p>Like Magritte's pipe, this page is only an idea of a page.</p>
+  <a href="/">Take me home</a>
+</div>
+</body>
+</html>
